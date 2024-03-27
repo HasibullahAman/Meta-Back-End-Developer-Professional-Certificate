@@ -8,7 +8,6 @@ import calendar
 
 # print(leapdays)
 
-
 # check range of year for leapyear
 
 for i in range(2000,2050):
