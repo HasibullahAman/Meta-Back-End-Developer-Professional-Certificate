@@ -13,3 +13,4 @@ animal = 'camel'
 d()
 print("Global animal " + animal)
 
+import * from numpy
