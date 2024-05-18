@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'menuapp.apps.MenuappConfig',
+    'menuapp.apps.MenuappConfig', # add when we create a new app
 ]
 
 MIDDLEWARE = [
