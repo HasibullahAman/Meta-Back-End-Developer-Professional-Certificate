@@ -22,11 +22,15 @@ class Menu(models.Model):
     
 class customers(models.Model):
     name = models.CharField(max_length = 100)
+    lastname = models.CharField(max_length=250)
     
     
-class Vehicle(moedls.Model):
+    
+class Vehicle(models.Model):
     name = models.CharField(max_length = 100)
     customers= models.ForeignKey(customers,on_delete=models.CASCADE,related_name="vehicles")
+    
+    
     
     
 
