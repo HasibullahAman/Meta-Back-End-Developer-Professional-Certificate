@@ -2,12 +2,11 @@ from django.shortcuts import render
 from django import forms
 # Create your views here.
 
-shifts = (
-    
-    ("1" : "Morning"),
-    ("2" : "Afternoon"),
-    ("3" : "Evening"),
-    ("4" : "Night"),
+Shifts = (
+    ("1" , "Morning"),
+    ("2" , "Afternoon"),
+    ("3" , "Evening"),
+    ("4" , "Night"),
 )
 
 class InputForm(forms.Form):
