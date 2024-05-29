@@ -19,3 +19,8 @@ class Person(models.Model):
         db_table = 'student_info' 
         
     """
+
+class Logger(forms.Form):
+    name = forms.CharField(max_length=100, required= False)
+    last_name = forms.CharField(max_length=100,)
+    time_log = forms.TimeField(help_text= "Please Enter a date like a human!")
