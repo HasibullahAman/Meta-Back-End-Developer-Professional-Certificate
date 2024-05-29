@@ -11,3 +11,4 @@ def form_view(request):
             form.save()
     context = {"form": form}
     return render(request,"home.html",context)
+ 

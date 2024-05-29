@@ -1,6 +1,5 @@
 from django.db import models
-
-
+from django import forms
 # Create your models here.
 
 
@@ -20,7 +19,7 @@ class Person(models.Model):
         
     """
 
-class Logger(forms.Form):
+class Logger(models.Model):
     name = forms.CharField(max_length=100, required= False)
     last_name = forms.CharField(max_length=100,)
     time_log = forms.TimeField(help_text= "Please Enter a date like a human!")
